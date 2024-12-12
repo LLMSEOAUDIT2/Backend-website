@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./capstone-llm-seo-audit-f0581611c86c.json'); // path ke file JSON yang diunduh
+const serviceAccount = require(''); // path ke file JSON yang diunduh
 
 // Inisialisasi Firebase Admin SDK
 admin.initializeApp({
