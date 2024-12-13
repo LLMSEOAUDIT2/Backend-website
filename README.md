@@ -262,7 +262,6 @@
 ### Download Audit PDF
 **Endpoint:**
 `GET /seoAudit/download-pdf/:id`
-`PUT /seoAudit/update/:id`
 
 **Response:**
 ```json
