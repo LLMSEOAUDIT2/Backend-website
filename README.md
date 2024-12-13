@@ -47,13 +47,13 @@
 - **Success:**
   ```json
   {
-    "message": "Registration successful"
+    "message": "signup successful"
   }
   ```
 
 - **Failure:**
   ```json
   {
-    "error": "Email already exists"
+    "error": "username already exists"
   }
   
