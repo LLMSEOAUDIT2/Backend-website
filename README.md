@@ -166,6 +166,15 @@
 }
 ```
 
+**Response:**
+
+- **Failure:**
+  ```json
+  {
+    "error": "An error occurred while retrieving the data"
+  }
+  ```
+
 ### Get Data Audit by ID
 **Endpoint:**
 `GET /seoAudit/get/:id`
@@ -211,6 +220,15 @@
   "notes": "this is a sample audit"
 }
 ```
+
+**Response:**
+
+- **Failure:**
+  ```json
+  {
+    "error": "ID document not valid"
+  }
+  ```
 
 ### Update Data Audit
 **Endpoint:**
@@ -258,6 +276,22 @@
 }
 ```
 
+**Response:**
+
+- **Success:**
+  ```json
+  {
+    "message": "SEO audit data updated successfully"
+  }
+  ```
+
+- **Failure:**
+  ```json
+  {
+    "error": "SEO audit data not found"
+  }
+  ```
+
 
 ### Download Audit PDF
 **Endpoint:**
@@ -304,3 +338,13 @@
   "notes": "this is a sample audit"
 }
 ```
+
+
+**Response:**
+
+- **Failure:**
+  ```json
+  {
+    "error": "Data audit not found"
+  }
+  ```
