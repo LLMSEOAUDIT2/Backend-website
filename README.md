@@ -345,6 +345,6 @@
 - **Failure:**
   ```json
   {
-    "error": "Data audit not found"
+    "error": "An error occurred while downloading the PDF file"
   }
   ```
